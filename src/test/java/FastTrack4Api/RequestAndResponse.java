@@ -5,12 +5,14 @@ import io.restassured.http.*;
 import io.restassured.response.*;
 import org.junit.jupiter.api.*;
 
-public class RequestAndResponse {
+import static io.restassured.RestAssured.given;
+
+public class RequestAndResponse extends TestBase{
 
     @Test
     public void test1(){
 
-        Response response = RestAssured.given().accept(ContentType.JSON)
+        Response response = given().accept(ContentType.JSON)
                 .when().get("http://3.87.65.105:8000/api/spartans/25");
 
         System.out.println(response.statusCode());
@@ -23,6 +25,12 @@ public class RequestAndResponse {
     @Test
     public void test2(){
 
+        Response response = given().accept(ContentType.JSON)
+                .when().get("/api/spartans/25");
+
+        Assertions.assertEquals(200, response.statusCode());
+        Assertions.assertEquals("Valentin",response.path("name"));
+        Assertions.assertEquals("Male",response.path("gender"));
     }
 
 
