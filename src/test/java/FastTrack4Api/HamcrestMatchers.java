@@ -34,6 +34,8 @@ public class HamcrestMatchers extends TestBase {
                 );
     }
 
+
+    // hamcrest matchers validating list
     @Test
     public void test3() {
 

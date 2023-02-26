@@ -11,6 +11,8 @@ import static io.restassured.RestAssured.given;
 
 public class Deserilization extends TestBase{
 
+
+    // converting response to map object
     @Test
     public void test1(){
 
@@ -21,12 +23,16 @@ public class Deserilization extends TestBase{
         System.out.println(spartan20);
     }
 
+
+    // converting response to list object
     @Test
     public void test2(){
         Response response = given().accept(ContentType.JSON)
-                .and().queryParam("gender","Male")
-                .when().get("/api/spartans/search");
+                .when().get("/api/spartans");
 
+        List<Map<String, Object>> maleSpartans = response.as(List.class);
+        System.out.println(maleSpartans.get(5));
+        System.out.println(maleSpartans);
 
     }
 }
