@@ -18,6 +18,15 @@ public class Deserilization extends TestBase{
                 .when().get("/api/spartans/20");
 
         Map<String, Object> spartan20 = response.as(Map.class);
+        System.out.println(spartan20);
+    }
+
+    @Test
+    public void test2(){
+        Response response = given().accept(ContentType.JSON)
+                .and().queryParam("gender","Male")
+                .when().get("/api/spartans/search");
+
 
     }
 }

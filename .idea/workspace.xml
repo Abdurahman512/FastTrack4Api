@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d3f82408-f0d6-4e0f-8df7-4889fcf7a166" name="Changes" comment="second push">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/FastTrack4Api/HamcrestMathcers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FastTrack4Api/HamcrestMatchers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/FastTrack4Api/Deserilization.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FastTrack4Api/Deserilization.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +42,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -56,7 +56,23 @@
       <recent name="FastTrack4Api" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.HamcrestMatchers.test2">
+  <component name="RunManager" selected="JUnit.Deserilization.test1">
+    <configuration name="Deserilization.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FastTrack4Api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="FastTrack4Api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="FastTrack4Api" />
+      <option name="MAIN_CLASS_NAME" value="FastTrack4Api.Deserilization" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HamcrestMatchers.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FastTrack4Api" />
       <extension name="coverage">
@@ -84,22 +100,6 @@
       <option name="PACKAGE_NAME" value="FastTrack4Api" />
       <option name="MAIN_CLASS_NAME" value="FastTrack4Api.HamcrestMatchers" />
       <option name="METHOD_NAME" value="test2" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RequestAndResponse.test4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="FastTrack4Api" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="FastTrack4Api.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="FastTrack4Api" />
-      <option name="MAIN_CLASS_NAME" value="FastTrack4Api.RequestAndResponse" />
-      <option name="METHOD_NAME" value="test4" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -139,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Deserilization.test1" />
         <item itemvalue="JUnit.HamcrestMatchers.test2" />
         <item itemvalue="JUnit.HamcrestMatchers.test1" />
         <item itemvalue="JUnit.RequestAndResponse.test5" />
         <item itemvalue="JUnit.RequestAndResponse.test6" />
-        <item itemvalue="JUnit.RequestAndResponse.test4" />
       </list>
     </recent_temporary>
   </component>
@@ -155,7 +155,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1677361828002</updated>
-      <workItem from="1677361829157" duration="5982000" />
+      <workItem from="1677361829157" duration="6374000" />
     </task>
     <task id="LOCAL-00001" summary="init project">
       <created>1677425492589</created>
@@ -206,7 +206,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677428190604</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="second push">
+      <created>1677429449109</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1677429449109</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -4,6 +4,8 @@ import io.restassured.http.*;
 import io.restassured.response.*;
 import org.junit.jupiter.api.*;
 
+import java.util.*;
+
 import static org.hamcrest.MatcherAssert.*;
 import static org.hamcrest.Matchers.*;
 
@@ -31,4 +33,22 @@ public class HamcrestMatchers extends TestBase {
                         "id", is(greaterThan(10))
                 );
     }
+
+    @Test
+    public void test3() {
+
+        // extract method helps us extract response to other objects afte validation
+        List<String> names = given().accept(ContentType.JSON)
+                .when().get("/api/spartans")
+                .then().statusCode(200)
+                .extract().jsonPath().getList("name");
+
+        System.out.println(names);
+
+        assertThat(names, hasSize(greaterThan(20)));
+        assertThat(names,hasItem("Paige"));
+        assertThat(names, everyItem(not(nullValue())));
+    }
+
+
 }
