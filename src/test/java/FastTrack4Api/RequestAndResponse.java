@@ -2,8 +2,11 @@ package FastTrack4Api;
 
 import io.restassured.*;
 import io.restassured.http.*;
+import io.restassured.path.json.*;
 import io.restassured.response.*;
 import org.junit.jupiter.api.*;
+
+import java.util.*;
 
 import static io.restassured.RestAssured.given;
 
@@ -31,6 +34,18 @@ public class RequestAndResponse extends TestBase{
         Assertions.assertEquals(200, response.statusCode());
         Assertions.assertEquals("Valentin",response.path("name"));
         Assertions.assertEquals("Male",response.path("gender"));
+    }
+
+    @Test
+    public void test3(){
+        Response response = given().accept(ContentType.JSON)
+                .when().get("/api/spartans");
+
+        JsonPath jsonPath = response.jsonPath();
+
+        List<String> names = jsonPath.getList("name");
+        System.out.println(names);
+
     }
 
 

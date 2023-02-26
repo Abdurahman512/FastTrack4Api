@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d3f82408-f0d6-4e0f-8df7-4889fcf7a166" name="Changes" comment="first push">
+    <list default="true" id="d3f82408-f0d6-4e0f-8df7-4889fcf7a166" name="Changes" comment="second push">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/FastTrack4Api/RequestAndResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FastTrack4Api/RequestAndResponse.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,7 +51,12 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.RequestAndResponse.test2">
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="FastTrack4Api" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.RequestAndResponse.test3">
     <configuration name="RequestAndResponse.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FastTrack4Api" />
       <extension name="coverage">
@@ -83,8 +89,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RequestAndResponse.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FastTrack4Api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="FastTrack4Api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="FastTrack4Api" />
+      <option name="MAIN_CLASS_NAME" value="FastTrack4Api.RequestAndResponse" />
+      <option name="METHOD_NAME" value="test3" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RequestAndResponse.test3" />
         <item itemvalue="JUnit.RequestAndResponse.test2" />
         <item itemvalue="JUnit.RequestAndResponse.test1" />
       </list>
@@ -98,7 +121,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1677361828002</updated>
-      <workItem from="1677361829157" duration="3123000" />
+      <workItem from="1677361829157" duration="3479000" />
     </task>
     <task id="LOCAL-00001" summary="init project">
       <created>1677425492589</created>
@@ -121,7 +144,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677425998856</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="second push">
+      <created>1677426258183</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1677426258183</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -130,6 +160,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init project" />
     <MESSAGE value="first push" />
-    <option name="LAST_COMMIT_MESSAGE" value="first push" />
+    <MESSAGE value="second push" />
+    <option name="LAST_COMMIT_MESSAGE" value="second push" />
   </component>
 </project>
