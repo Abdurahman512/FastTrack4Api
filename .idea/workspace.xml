@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d3f82408-f0d6-4e0f-8df7-4889fcf7a166" name="Changes" comment="second push">
-      <change afterPath="$PROJECT_DIR$/src/test/java/FastTrack4Api/ResponseTime.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/FastTrack4Api/SchemaValidation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/singleSpartanSchema.json" afterDir="false" />
-    </list>
+    <list default="true" id="d3f82408-f0d6-4e0f-8df7-4889fcf7a166" name="Changes" comment="second push" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -62,8 +58,8 @@
       <recent name="FastTrack4Api" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ResSpecAndReqSpec.test1">
-    <configuration name="Auth.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ParametrizedTest.nameId">
+    <configuration name="ParametrizedTest.nameId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FastTrack4Api" />
       <extension name="coverage">
         <pattern>
@@ -72,14 +68,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="FastTrack4Api" />
-      <option name="MAIN_CLASS_NAME" value="FastTrack4Api.Auth" />
-      <option name="METHOD_NAME" value="test1" />
+      <option name="MAIN_CLASS_NAME" value="FastTrack4Api.ParametrizedTest" />
+      <option name="METHOD_NAME" value="nameId(java.lang.String,java.lang.String)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Auth.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ParametrizedTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FastTrack4Api" />
       <extension name="coverage">
         <pattern>
@@ -88,8 +84,24 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="FastTrack4Api" />
-      <option name="MAIN_CLASS_NAME" value="FastTrack4Api.Auth" />
-      <option name="METHOD_NAME" value="test2" />
+      <option name="MAIN_CLASS_NAME" value="FastTrack4Api.ParametrizedTest" />
+      <option name="METHOD_NAME" value="test1(int)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ParametrizedTest.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FastTrack4Api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="FastTrack4Api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="FastTrack4Api" />
+      <option name="MAIN_CLASS_NAME" value="FastTrack4Api.ParametrizedTest" />
+      <option name="METHOD_NAME" value="test3(int)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -127,29 +139,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Xml.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="FastTrack4Api" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="FastTrack4Api.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="FastTrack4Api" />
-      <option name="MAIN_CLASS_NAME" value="FastTrack4Api.Xml" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ParametrizedTest.nameId" />
+        <item itemvalue="JUnit.ParametrizedTest.test1" />
+        <item itemvalue="JUnit.ParametrizedTest.test3" />
         <item itemvalue="JUnit.ResSpecAndReqSpec.test1" />
         <item itemvalue="JUnit.SchemaValidation.test1" />
-        <item itemvalue="JUnit.Auth.test2" />
-        <item itemvalue="JUnit.Auth.test1" />
-        <item itemvalue="JUnit.Xml.test1" />
       </list>
     </recent_temporary>
   </component>
@@ -161,7 +157,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1677361828002</updated>
-      <workItem from="1677361829157" duration="11368000" />
+      <workItem from="1677361829157" duration="11801000" />
     </task>
     <task id="LOCAL-00001" summary="init project">
       <created>1677425492589</created>
@@ -240,7 +236,28 @@
       <option name="project" value="LOCAL" />
       <updated>1677434062163</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="second push">
+      <created>1677434529847</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1677434529847</updated>
+    </task>
+    <task id="LOCAL-00013" summary="second push">
+      <created>1677434760025</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1677434760025</updated>
+    </task>
+    <task id="LOCAL-00014" summary="second push">
+      <created>1677434834111</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1677434834111</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
