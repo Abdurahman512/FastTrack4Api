@@ -46,6 +46,31 @@ public class RequestAndResponse extends TestBase{
         List<String> names = jsonPath.getList("name");
         System.out.println(names);
 
+        String name = jsonPath.getString("[0].name");
+        System.out.println(name);
+    }
+
+    @Test
+    public void test4(){
+        Response response = given().accept(ContentType.JSON)
+                .and().pathParam("id",20)
+                .when().get("/api/spartans/{id}");
+
+        response.prettyPrint();
+    }
+
+    @Test
+    public void test5(){
+        Response response = given().accept(ContentType.JSON)
+                .and().queryParam("gender","Male")
+                .and().queryParam("nameContains","va")
+                .and().queryParam("nameContains","va")
+                .and().queryParam("nameContains","va")
+                .and().queryParam("nameContains","va")
+                .and().queryParam("nameContains","va")
+                .when().get("/api/spartans/search");
+
+        response.prettyPrint();
     }
 
 
