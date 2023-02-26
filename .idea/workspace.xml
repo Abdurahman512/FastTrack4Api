@@ -5,13 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d3f82408-f0d6-4e0f-8df7-4889fcf7a166" name="Changes" comment="second push">
-      <change afterPath="$PROJECT_DIR$/src/test/java/FastTrack4Api/Auth.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/FastTrack4Api/POJO/Search.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/FastTrack4Api/POJO/Spartan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/FastTrack4Api/PostMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/FastTrack4Api/Xml.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/FastTrack4Api/Deserilization.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FastTrack4Api/Deserilization.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/FastTrack4Api/ResponseTime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/FastTrack4Api/SchemaValidation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/singleSpartanSchema.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +46,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/Zulpikar/IdeaProjects/FastTrack4Api/src/test/resources",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -58,11 +55,14 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Zulpikar\IdeaProjects\FastTrack4Api\src\test\resources" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="FastTrack4Api" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Auth.test2">
+  <component name="RunManager" selected="JUnit.SchemaValidation.test1">
     <configuration name="Auth.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FastTrack4Api" />
       <extension name="coverage">
@@ -95,22 +95,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Deserilization.test4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="FastTrack4Api" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="FastTrack4Api.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="FastTrack4Api" />
-      <option name="MAIN_CLASS_NAME" value="FastTrack4Api.Deserilization" />
-      <option name="METHOD_NAME" value="test4" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="PostMethod.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FastTrack4Api" />
       <extension name="coverage">
@@ -121,6 +105,22 @@
       </extension>
       <option name="PACKAGE_NAME" value="FastTrack4Api" />
       <option name="MAIN_CLASS_NAME" value="FastTrack4Api.PostMethod" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SchemaValidation.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FastTrack4Api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="FastTrack4Api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="FastTrack4Api" />
+      <option name="MAIN_CLASS_NAME" value="FastTrack4Api.SchemaValidation" />
       <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -145,11 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SchemaValidation.test1" />
         <item itemvalue="JUnit.Auth.test2" />
         <item itemvalue="JUnit.Auth.test1" />
         <item itemvalue="JUnit.Xml.test1" />
         <item itemvalue="JUnit.PostMethod.test1" />
-        <item itemvalue="JUnit.Deserilization.test4" />
       </list>
     </recent_temporary>
   </component>
@@ -161,7 +161,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1677361828002</updated>
-      <workItem from="1677361829157" duration="10814000" />
+      <workItem from="1677361829157" duration="11368000" />
     </task>
     <task id="LOCAL-00001" summary="init project">
       <created>1677425492589</created>
@@ -233,7 +233,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677430310309</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="second push">
+      <created>1677434062163</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1677434062163</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
