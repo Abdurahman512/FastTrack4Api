@@ -62,7 +62,7 @@
       <recent name="FastTrack4Api" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SchemaValidation.test1">
+  <component name="RunManager" selected="JUnit.ResSpecAndReqSpec.test1">
     <configuration name="Auth.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FastTrack4Api" />
       <extension name="coverage">
@@ -95,7 +95,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PostMethod.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ResSpecAndReqSpec.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FastTrack4Api" />
       <extension name="coverage">
         <pattern>
@@ -104,7 +104,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="FastTrack4Api" />
-      <option name="MAIN_CLASS_NAME" value="FastTrack4Api.PostMethod" />
+      <option name="MAIN_CLASS_NAME" value="FastTrack4Api.ResSpecAndReqSpec" />
       <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -145,11 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ResSpecAndReqSpec.test1" />
         <item itemvalue="JUnit.SchemaValidation.test1" />
         <item itemvalue="JUnit.Auth.test2" />
         <item itemvalue="JUnit.Auth.test1" />
         <item itemvalue="JUnit.Xml.test1" />
-        <item itemvalue="JUnit.PostMethod.test1" />
       </list>
     </recent_temporary>
   </component>
